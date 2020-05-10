@@ -1,0 +1,105 @@
+
+.imga
+{
+padding:5px;
+	height:300px;
+	width:220px;
+  display: block;
+  margin-top:5px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.product-bottoma fa
+{
+	font-size: 10px;
+}
+.checked
+{
+color: orange;
+}
+
+.maindiv
+{
+border :1px solid;
+margin:8px;
+width:250px;
+height:470px;
+}
+.maindiv:hover .cartdiv
+{
+opacity:1;
+transition:0.5s;
+}
+.product-bottoma h3
+{
+
+	font-size: 20px;
+	font-weight: bold;
+}
+.product-bottoma h5
+{
+
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.overlaya
+{
+
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	margin-left: 0;
+	width:70px;
+}
+.product-topa:hover .overlaya
+{
+opacity: 1;
+transition: 0.3s;
+}
+.overlaya fa
+{
+	cursor: pointer;
+	background-color:#f9ba48;
+	height: 45px;
+	width: 45px;
+	font-size: 30px;
+	padding: 7px;
+	margin: 2%;
+	margin-bottom: 5%;
+
+}
+
+.overlaya .btn-secondary
+{
+
+border: none !important;
+box-shadow: none !important;
+}
+
+.cartdiv
+{
+padding: 0 ,15px;
+opacity:0;
+width:100%;
+}
+
+.btncart
+{
+    box-shadow: none !important;
+    color: #fff;
+    background-color:#ffd200;
+   border:none;
+    height:35px;
+    cursor: pointer;
+}
+.btncart:hover
+{
+background-color:#2457aa;
+border:none;
+
+}
+{%endblock%}
